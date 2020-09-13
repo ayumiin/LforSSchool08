@@ -13,16 +13,16 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val apple = Word(R.drawable.apple,"りんご")
-        val peech = Word(R.drawable.peech,"もも")
-        val grape = Word(R.drawable.grape,"ぶどう")
-        val strobery = Word(R.drawable.stroberry,"いちご")
+        val minecraft = Word(R.drawable.minecraft,"MineCreft")
+        val movie = Word(R.drawable.movie,"Movie")
+        val unity = Word(R.drawable.unity,"Unity")
+        val webD = Word(R.drawable.web_design,"WebD")
 
 
-        addWord(apple)
-        addWord(peech)
-        addWord(grape)
-        addWord(strobery)
+        addWord(minecraft)
+        addWord(movie)
+        addWord(unity)
+        addWord(webD)
     }
 
     private fun addWord(word: Word){
